@@ -3,6 +3,12 @@ body{
     font-family: "Figtree", sans-serif;
 }
 
+main {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
 #container{
     background-color: #FFFFFF;
     border: 1px solid black;
@@ -25,12 +31,53 @@ body{
     border-radius: 10px;
 }
 
-p {
-    font-size: 1rem;
-    margin: 8px 0;
-}
 
 .learning {
-    margin-top: 20px;
+    margin-top: 30px;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.learning span {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.date{
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.title {
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.title:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.description {
+    color: hsl(0, 0%, 42%);
     font-size: .8rem;
 }
+
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.user-info img {
+    width: auto;
+    height: 30px;
+}
+
+
+.attribution { font-size: 0.6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
