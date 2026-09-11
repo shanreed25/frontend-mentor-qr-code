@@ -17,3 +17,20 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.top-img{
+    background-image: url(./images/illustration-article.svg);
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin: 8px 0;
+}
+
+.learning {
+    margin-top: 20px;
+    font-size: .8rem;
+}
