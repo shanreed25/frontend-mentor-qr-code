@@ -25,7 +25,7 @@ The designs were created to the following widths:
 
 ### Font
 
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- [x] Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 700
 
 > 💎 This is a free+ challenge. So, if you want to see all the design details and practice working with professional tools like Figma, you can download the design file from where you downloaded the starter code.
