@@ -2,10 +2,11 @@
 
 > Practiced implementing Figma designs using Frontend Mentor’s challenges
 
-[OR Code](./qr-code/README.md)
-[Blog Preview Card ](./blog-preview-card/README.md)
+- [OR Code](./qr-code)
+- [Blog Preview Card ](./blog-preview-card)
 
 ---
+## Reflection
 
 ### How did using Figma designs as references affect your coding process?
 
