@@ -11,3 +11,51 @@ article{
   box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
 
 }
+
+
+article, .qr-code{
+  border-radius: 15px;
+}
+
+.qr-code{
+  background-image: url(./images/image-qr-code.png);
+  height: 300px;
+  width: auto;
+  background-size: cover;
+  border-radius: 10px;
+
+}
+
+
+.content {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+p {
+  color: hsl(216, 15%, 48%);
+  font-size: .85rem;
+  width: 80%;
+  text-align: center;
+}
+  
+
+
+
+
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
