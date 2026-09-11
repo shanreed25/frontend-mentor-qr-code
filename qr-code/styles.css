@@ -1,4 +1,4 @@
-body{
+body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
 }
@@ -9,29 +9,26 @@ main {
   justify-content: center;
 }
 
-article{
+article {
   background-color: hsl(0, 0%, 100%);
   width: 300px;
   padding: 25px 15px;
   margin: 15px;
   box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
-
 }
 
-
-article, .qr-code{
+article,
+.qr-code {
   border-radius: 15px;
 }
 
-.qr-code{
+.qr-code {
   background-image: url(./images/image-qr-code.png);
   height: 300px;
   width: auto;
   background-size: cover;
   border-radius: 10px;
-
 }
-
 
 .content {
   margin: 0 auto;
@@ -43,23 +40,22 @@ article, .qr-code{
 }
 
 h1 {
-    font-size: 1.5rem;
-    text-align: center;
-    color: hsl(218, 44%, 22%);
+  font-size: 1.5rem;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
 }
 
 p {
   color: hsl(216, 15%, 48%);
-  font-size: .85rem;
+  font-size: 0.85rem;
   width: 80%;
   text-align: center;
 }
-  
 
-.attribution { 
-    font-size: 0.6875rem; 
-    text-align: center; 
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
